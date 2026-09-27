@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   // Approved Dreamina Seedance export; keep the GPT still as the normal poster/fallback.
-  const HERO_SCROLL_VIDEO = { src: './assets/generated/lp-field-hero-scroll.mp4', poster: './assets/generated/lp-field-hero.webp' };
+  const HERO_SCROLL_VIDEO = { src: './assets/generated/lp-field-hero-scroll-cropped.mp4', poster: './assets/generated/lp-field-hero.webp' };
   const scrollTrack = document.querySelector('.hero-scroll-track');
   const scrollVideo = scrollTrack?.querySelector('.hero-scroll-video');
   const motionQuery = window.matchMedia?.('(prefers-reduced-motion: reduce)');
